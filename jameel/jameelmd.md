@@ -25,10 +25,11 @@ However, large language models often face challenges such as generating inaccura
 
 For example, if you want to write a blog post about the latest trends in AI, you can use a vector database to store the latest information about that topic and pass the information along with the ask to a LLM in order to generate a blog post that leverages the latest information.
  </p>
- <a href=”https://learn.microsoft.com/en-us/semantic-kernel/memories/vector-db”>article link</a>
+ 
+[article link](https://learn.microsoft.com/en-us/semantic-kernel/memories/vector-db)
 
 ## What is the difference between vector database and relational database? 
-
+<p>
  Every table in a relational database is like a spreadsheet. To find a row of data, you match it on a set of criteria. For example: Lives in USA, surname Smith, drives a Nissan Leaf. They are excellent and extremely fast at this task. However what they are very poor at is finding stuff similar to stuff, especially when the similarity is more abstract.
 
 A vector database has the data input as things known as vector embeddings. This is a higher dimensional interpretation of something, and the dimensions may be abstract and not meaningful to humans since they were produced by machine learning. In this higher dimensional vector space, the database would understand that:
@@ -45,11 +46,12 @@ Via a layer of abstraction its able to say Canada and USA are reasonably similar
 
 They are complex to set up and manage, but extremely powerful.
 
-Another example that's human understandable, is colour. Colour can be imagined as a vector with a Red, Green and Blue component. A vector database could trivially match similar colours based on this vector, while a relational database would require the user to specifically develop rules to find similar colours. 
- 
- <a href=”https://www.reddit.com/r/explainlikeimfive/comments/rfnq5x/eli5_what_is_the_difference_between_vector/?rdt=51263”>article link</a>
+Another example that's human understandable, is colour. Colour can be imagined as a vector with a Red, Green and Blue component. A vector database could trivially match similar colours based on this vector, while a relational database would require the user to specifically develop rules to find similar colours. </p>
+
+[article link](https://www.reddit.com/r/explainlikeimfive/comments/rfnq5x/eli5_what_is_the_difference_between_vector/?rdt=51263)
 
 ### Useful links
-<a href=”https://www.reddit.com/r/datascience/comments/14ieyfs/vector_databases_101/”>Vector Databases in-depth</a>
-<a href=”https://medium.com/geekculture/explain-like-im-5-vector-database-hype-bd936fd319ff”>Easy Explanation of Vector Databases</a>
+[Vector Databases in-depth](https://www.reddit.com/r/datascience/comments/14ieyfs/vector_databases_101/)
+
+[Easy Explanation of Vector Databases](https://medium.com/geekculture/explain-like-im-5-vector-database-hype-bd936fd319ff)
 
