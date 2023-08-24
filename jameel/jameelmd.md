@@ -25,6 +25,7 @@ However, large language models often face challenges such as generating inaccura
 
 For example, if you want to write a blog post about the latest trends in AI, you can use a vector database to store the latest information about that topic and pass the information along with the ask to a LLM in order to generate a blog post that leverages the latest information.
  </p>
+ 
 [article link](https://learn.microsoft.com/en-us/semantic-kernel/memories/vector-db)
 
 ## What is the difference between vector database and relational database? 
